@@ -53,7 +53,6 @@ La opción -o <nombre-del-fichero> vuelva la salida en el archivo que especifiqu
 
 ![imagen](https://user-images.githubusercontent.com/72305337/222408895-c48d317a-d6c0-47e0-bb88-33f7f2322def.png)
 
-
 ## Reto 1: Soportar funciones flecha
 
 Se ha añadido una condición a la entrada del traverse de espree para que también analice nodos ArrowFunctionExpression.
@@ -69,4 +68,7 @@ Se cuenta con una variable lineN, que obtiene la propiedad del número de línea
 
 ## Tests and Covering
 
-...
+Se realiza un estudio de cobertura del programa, con el script cov. Se utiliza c8 en vez de nyc porque el segundo causa problemas.
+
+![imagen](https://user-images.githubusercontent.com/72305337/222413683-c5ca1656-4d9d-4c9f-a689-505ac45264bd.png)
+
