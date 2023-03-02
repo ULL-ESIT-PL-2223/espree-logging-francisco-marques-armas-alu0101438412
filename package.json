@@ -2,7 +2,7 @@
   "name": "@francisco-marques-armas/constant-folding",
   "author": "francisco-marques-armas <alu0101438412@gmail.com> (https://github.com/francisco-marques-armas)",
   "description": "Adds logs to javascript code",
-  "entry point": "bin/log.js",
+  "entry point": "src/logging-espree.js",
   "type": "module",
   "bin": {
     "funlog": "bin/log.js"
@@ -25,7 +25,7 @@
     "mocha": "^10.2.0",
     "nyc": "^15.1.0"
   },
-  "main": "bin/log.js",
+  "main": "src/logging-espree.js",
   "directories": {
     "test": "test"
   },
