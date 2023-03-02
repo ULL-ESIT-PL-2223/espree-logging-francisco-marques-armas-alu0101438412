@@ -1,7 +1,8 @@
 {
-  "name": "@francisco-marques-armas/espree",
+  "name": "@francisco-marques-armas/constant-folding",
   "author": "francisco-marques-armas <alu0101438412@gmail.com> (https://github.com/francisco-marques-armas)",
   "description": "Adds logs to javascript code",
+  "entry point": "bin/log.js",
   "type": "module",
   "bin": {
     "funlog": "bin/log.js"
@@ -18,13 +19,13 @@
     "estraverse": "^5.2.0",
     "underscore": "^1.12.0"
   },
-  "version": "1.0.0",
+  "version": "1.0.5",
   "devDependencies": {
     "c8": "^7.13.0",
     "mocha": "^10.2.0",
     "nyc": "^15.1.0"
   },
-  "main": "salida.js",
+  "main": "bin/log.js",
   "directories": {
     "test": "test"
   },

@@ -5,7 +5,7 @@ import { createRequire } from "module";
 const require = createRequire(import.meta.url);
 const { version } = require("../package.json");
 import { transpile } from "../src/logging-espree.js";
-
+import { addLogging } from "../src/logging-espree.js"
 program
   .version(version)
   .argument("<filename>", 'file with the original code')
@@ -15,3 +15,5 @@ program
   });
 
 program.parse(process.argv);
+
+module.exports = addLogging;

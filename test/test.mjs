@@ -36,7 +36,6 @@ for (let i = 0; i < Test.length; i++) {
       eval(output);
       assert.equal(removeSpaces(result), removeSpaces(correctOut))
     console.log = oldLog;  });
-     
 }
 
 
