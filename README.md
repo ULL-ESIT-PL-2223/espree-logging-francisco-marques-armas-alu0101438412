@@ -1,6 +1,17 @@
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-f4981d0f882b2a3f0472912d15f9806d57e124e0fc890972558857b51b24a6f9.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=10290111)
 # Práctica Espree logging
 
+## Guía de uso
+
+Para instalar el paquete, ejecute:
+```bash
+npm install @francisco-marques-armas/constant-folding
+```
+Para utilizar el ejecutable, escriba el siguiente comando:
+```bash
+npx funlog <fichero con la función>
+```
+
 ## Resumen de lo aprendido
 
 Se han añadido opciones en la línea de comandos y mensajes en la entrada de funciones, anotando también el número de línea. Se cuenta con scripts en el package.json (test y cov) para poner a prueba el funcionamiento del programa y estos se ejecutan al realizar integración continua con Github Actions. El paquete ha sido publicado en npmjs con ámbito francisco-marques-armas. Se ha documentado y se ha probado que está accesible. Además, se realiza un estudio de cobertura y se ha aprendido el significado del versionado.
