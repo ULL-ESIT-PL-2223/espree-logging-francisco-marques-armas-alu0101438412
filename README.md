@@ -56,11 +56,16 @@ La opción -o <nombre-del-fichero> vuelva la salida en el archivo que especifiqu
 
 ## Reto 1: Soportar funciones flecha
 
-...
+Se ha añadido una condición a la entrada del traverse de espree para que también analice nodos ArrowFunctionExpression.
+
+![imagen](https://user-images.githubusercontent.com/72305337/222412957-11e7044f-1a18-43ec-aa0d-e5d0ff90067c.png)
 
 ## Reto 2: Añadir el número de línea
 
-...
+Se cuenta con una variable lineN, que obtiene la propiedad del número de línea de la localización de comienzo del nodo, y se añade al mensaje que se implementa en el código.
+
+![imagen](https://user-images.githubusercontent.com/72305337/222413312-7ca2b109-8696-4160-b970-7985ac65e67e.png)
+
 
 ## Tests and Covering
 
