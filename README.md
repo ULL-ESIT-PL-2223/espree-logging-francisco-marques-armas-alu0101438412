@@ -3,6 +3,8 @@
 
 ## Resumen de lo aprendido
 
+![imagen](https://user-images.githubusercontent.com/72305337/222301196-21045a14-cd76-4fbe-825a-814c01e56edf.png)
+
 ...
 
 ## Indicar los valores de los argumentos
