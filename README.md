@@ -11,13 +11,35 @@ Para utilizar el ejecutable, escriba el siguiente comando:
 ```bash
 npx funlog <fichero con la función>
 ```
-
+Para añadir la función addLogging a su programa, escriba:
+```javascript
+import { addLogging } from "@francisco-marques-armas/constant-folding";
+```
 ## Resumen de lo aprendido
 
-Se han añadido opciones en la línea de comandos y mensajes en la entrada de funciones, anotando también el número de línea. Se cuenta con scripts en el package.json (test y cov) para poner a prueba el funcionamiento del programa y estos se ejecutan al realizar integración continua con Github Actions. El paquete ha sido publicado en npmjs con ámbito francisco-marques-armas. Se ha documentado y se ha probado que está accesible. Además, se realiza un estudio de cobertura y se ha aprendido el significado del versionado.
+Se cuenta con scripts en el package.json (test y cov) para poner a prueba el funcionamiento del programa.
+
+![imagen](https://user-images.githubusercontent.com/72305337/222534732-cb150d60-2946-4ae6-8036-b7ef4744214a.png)
+
+Los tests se ejecutan al realizar integración continua con Github Actions.
+
+![imagen](https://user-images.githubusercontent.com/72305337/222535495-b91572bb-a3a6-4ddb-bbeb-9072bb2018b4.png)
+
+Se ha creado una cuenta npm
+
+![imagen](https://user-images.githubusercontent.com/72305337/222533528-269baf81-4a3e-4287-a0c2-d32dcf31fdce.png)
+
+El paquete ha sido publicado en npmjs con ámbito francisco-marques-armas.
+
 ![imagen](https://user-images.githubusercontent.com/72305337/222475522-199431aa-7a17-4728-9085-d8c133358fd0.png)
 
-...
+Se ha documentado con comentarios JSDoc y en el fichero README.md
+
+![imagen](https://user-images.githubusercontent.com/72305337/222522975-3e96d43e-3ca0-4126-997c-59dc10588162.png)
+
+Además, se realiza un estudio de cobertura y se ha aprendido el significado del versionado.
+
+![imagen](https://user-images.githubusercontent.com/72305337/222534829-f0285cf4-3711-47c1-8da7-8a431928b69d.png)
 
 ## Indicar los valores de los argumentos
 
@@ -81,5 +103,5 @@ Se cuenta con una variable lineN, que obtiene la propiedad del número de línea
 
 Se realiza un estudio de cobertura del programa, con el script cov. Se utiliza c8 en vez de nyc porque el segundo causa problemas.
 
-![imagen](https://user-images.githubusercontent.com/72305337/222413683-c5ca1656-4d9d-4c9f-a689-505ac45264bd.png)
+![imagen](https://user-images.githubusercontent.com/72305337/222534829-f0285cf4-3711-47c1-8da7-8a431928b69d.png)
 
