@@ -4,7 +4,7 @@
 ## Resumen de lo aprendido
 
 Se han añadido opciones en la línea de comandos y mensajes en la entrada de funciones, anotando también el número de línea. Se cuenta con scripts en el package.json (test y cov) para poner a prueba el funcionamiento del programa y estos se ejecutan al realizar integración continua con Github Actions. El paquete ha sido publicado en npmjs con ámbito francisco-marques-armas. Se ha documentado y se ha probado que está accesible. Además, se realiza un estudio de cobertura y se ha aprendido el significado del versionado.
-![imagen](https://user-images.githubusercontent.com/72305337/222406507-bb862755-8872-4d09-85bc-f19f259cc069.png)
+![imagen](https://user-images.githubusercontent.com/72305337/222475522-199431aa-7a17-4728-9085-d8c133358fd0.png)
 
 ...
 
