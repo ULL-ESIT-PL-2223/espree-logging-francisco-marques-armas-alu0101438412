@@ -82,7 +82,7 @@ La opción -V muestra la versión del programa. En este caso es la versión 1.0.
 
 ![imagen](https://user-images.githubusercontent.com/72305337/222408477-61541e45-18cb-4838-a451-783b152dce5c.png)
 
-La opción -o <nombre-del-fichero> vuelva la salida en el archivo que especifiquemos.
+La opción -o <nombre-del-fichero> vuelca la salida en el archivo que especifiquemos.
 
 ![imagen](https://user-images.githubusercontent.com/72305337/222408895-c48d317a-d6c0-47e0-bb88-33f7f2322def.png)
 
